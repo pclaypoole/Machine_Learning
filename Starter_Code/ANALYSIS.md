@@ -19,7 +19,7 @@ In this assignment, you will build and evaluate several machine-learning models 
 
 [Ensemble Starter Notebook](Starter_Code/credit_risk_ensemble.ipynb)
 
-[Lending Club Loans Data](Instructions/Resources/LoanStats_2019Q1.csv.zip)
+[Lending Club Loans Data](../Resources/LoanStats_2019Q1.csv.zip)
 
 ---
 
@@ -35,20 +35,20 @@ Use the above referenced Resampling Stater Notebook to answer the following:
 > Which model had the best recall score?
 * The RandomOverSampler model has the best Recall score. This model will give us the highest actual positive samples that are correct.
 > Which model had the best geometric mean score?
-* 
+* The RandomOverSampler model has the best geometric mean score.
 
 ### 2. Ensemble Learning
 
 Use the above referenced Ensemble Starter Notebook to answer the following:
 
 > Which model had the best balanced accuracy score?
-* This model gives us the highest probability of correct calls or correct predictions for credit risk.
+* The EasyEnsembleClassifier model predicts the highest balanced accuracy score. This model gives us the highest probability of correct calls or correct predictions for credit risk.
 > Which model had the best recall score?
-* This model will give us the highest actual positive samples that are correct.
+* The EasyEnsembleClassifier model predicts the highest balanced accuracy score. This model will give us the highest actual positive samples that are correct.
 > Which model had the best geometric mean score?
-*
+* The EasyEnsembleClassifier model predicts the highest geometric mean score.
 > What are the top three features?
-*
+* total_rec_prncp','total_pymnt','total_pymnt_inv are the top 3 features in the model predictions.
 
 ---
 
